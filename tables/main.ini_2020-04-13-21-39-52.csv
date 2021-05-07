@@ -1,0 +1,3 @@
+"sql_id";"sql_db_file";"sql_name";"sql_query";"sql_datecreate";
+"1";"glpi.ini";"Демозапрос ПК-Мониторы";"SELECT * FROM glpi_computers, glpi_computers_items, glpi_monitors WHERE glpi_computers.id = glpi_computers_items.computers_id AND glpi_computers_items.items_id = glpi_monitors.id;";"2020-04-14 00:01:39";
+"2";"main.ini";"Таблица запросов";"SELECT * FROM `wta_sql_manager`;";"2020-04-14 00:17:19";

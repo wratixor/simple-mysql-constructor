@@ -1,0 +1,198 @@
+body {
+	font-family: sans-serif;
+	margin: 0 auto;
+	padding: 0px 10px;
+	min-width: 600px;
+	background: #dddddd;
+	color: #ffffff;
+	text-align: center;
+}
+p {
+	margin: 0px;
+	padding: 0px;
+}
+div {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	margin: 0px;
+	padding: 0px;
+}
+img {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+a {
+	font-weight: bold;
+	color: inherit;
+	text-decoration: none;
+}
+
+a:visited {
+	font-weight: normal;
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #003000;
+	text-decoration: underline;
+	background-color: #ddffdd;
+}
+
+a:focus {
+	font-weight: bold;
+	color: #003000;
+	text-decoration: underline;
+	background-color: #ddffdd;
+}
+
+.body {
+	margin: 0px;
+	padding: 0px;
+	/*
+	background-color: #ffffff;
+	color: #000000;
+	*/
+}
+
+.userpanel {
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	font-size: 18px;
+	color: #00cc00;
+	background: #cccccc;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.logo {
+	margin: 0px;
+	padding: 0px;
+	/*height: 50px;*/
+	color: #000000;
+	background: #ffffcc;
+	text-align: left;
+	vertical-align: middle;
+}
+.logo > a{
+	margin: 0px;
+	padding: 5px;
+	/*height: 50px;*/
+	font-size: 150%;
+	display: block;
+	color: #000000;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+.column {
+	text-align: left;
+	vertical-align: top;
+	
+}
+
+.menu {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+}
+.menuitem {
+	margin: 1px;
+	padding: 1px;
+	text-align: left;
+	vertical-align: middle;
+	background-color: #cccccc;
+	color: #000000;
+}
+.menuitem > a{
+	color: #000000;
+	display: block;
+}
+.pane {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #ffffff;
+	color: #000000;
+	display: inline-block;
+	vertical-align: top;
+	min-height: 500px;
+	width: 80%;
+}
+
+.notice {
+	margin: 0px;
+	padding: 0px;
+	background-color: #400000;
+}
+
+.noticeitem {
+	margin-bottom: 3px;
+	padding: 2px;
+	border: 1px #ff0000 solid;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #400000;
+	color: #ff0000;
+}
+
+.main {
+	margin: 10px;
+	padding: 0px;
+	border: 0px;
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.bottom {
+	margin: auto;
+	font-size: 70%;
+	padding: 1px;
+	border-top: 1px #ffffff solid;
+	text-align: left;
+	vertical-align: bottom;
+	
+}
+
+.login {
+	position: absolute;
+	width: 300px;
+	top: 100px;
+	left: 50%;
+	margin-left: -150px;
+	text-align: center;
+	color: #ffffff;
+	background-color: #003000;
+	border: 1px #00ff00 solid;
+}
+.grid {
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	
+}
+
+.login td {
+	text-align: right;
+}
+
+.login input {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	width: 100%;
+}
+
